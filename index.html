@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!--Обозначаем HTML документ-->
+<html lang="en"> <!-- Выбираем язык -->
+<head> <!-- контейнер head используется для мета тэгов -->
+    <meta charset="UTF-8"> <!-- -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- -->
+    <title>Document</title> <!-- управляет отображением веб-страницы на мобильных устройствах -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head> <!-- закрываем тэг head -->
+<body> <!-- основной контейнер для работы -->
+    <div class="title-box"> <!-- Универсальный контейнер-->
+        <h1 class="title-element"> B данном заголовке мы можем писать что-либо интересное</h1> <!-- заголовок-->
+        <h2 class="title-element">Каждый последующий заголовок будет всё меньше</h2>
+        <h3 class="title-element">и так далее </h3>
+    </div> 
+    <div class="universal-box"><div class="p-box"><p class="text-element">Обычно параграф используют для размещения текста, хотя по сути это <b>универсальный</b> контейнер.</p></div></div> <!-- тэг параграф и тэг <b> делает текст жирным -->
+    <div class="universal-box-1">
+        <a class="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Эта ссылка может вас обманывать</a><img height="200px" width="200px" src="unnamed.png" alt=""> <!-- тэг a(ссылка) и тэг img(путь) -->
+    </div>
+    <ul class="custom-list custom-ul">
+    <li  class="custom-li highlight-item universal-text">Это пример не нумерованого списка</li>
+    <ol class="custom-list custom-ol universal-text">
+        <li class="custom-li">это пример вложенного <span class="bold-text">нумерованного</span> списка</li>
+    </ol>
+</ul>
+
+<form class="custom-form" action="/submit" method="POST">
+    <label class="form-label universal-text-1" for="name">Имя:</label>
+    <input class="form-input" type="text" id="name" name="name">
+    <button class="submit-btn universal-text-1" type="submit">Это пример самой простой формы</button>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
